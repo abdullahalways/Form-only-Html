@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="index.html">
+        <fieldset>
+            <legend>Account</legend>
+            <label for="name">Name</label>
+            <input type="text" name="name" placeholder="write your name" required><br><br>
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="write your email" required><br><br>
+            <label for="password">Password</label>
+            <input type="password" name="password" placeholder="write your password" required><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>User Info</legend>
+            <label for="location">location</label>
+            <select name="location"> 
+                <option value="CA">CA</option>
+                <option value="NY" selected>NY</option>
+                <option value="MA">MA</option>
+            </select>
+            <br><br>
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+            <br><br>
+            <label for="interest">Interests</label>
+            <input type="checkbox" name="interest" value="books">Books
+            <input type="checkbox" name="interest" value="football">Football
+            <input type="checkbox" name="interest" value="cricket" checked >Cricket
+            <input type="checkbox" name="interest" value="swimming">Swimming
+            <br><br>
+        </fieldset>
+        <br>
+        <input type="Submit">
+        </form>
+</body>
+</html>
